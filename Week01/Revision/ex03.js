@@ -1,5 +1,5 @@
 const payments = [
-    { petName: "Chester", amount: 50, status: "APPROVED" },
+    { petName: "Chester", amount: 50, status: "APPROVED" }, // object with properties : pet name amount and status
     { petName: "Mochi", amount: 80, status: "PENDING" },
     { petName: "Mira", amount: 40, status: "DECLINED" }
 ];
