@@ -8,6 +8,7 @@ const PORT = 3000;
 // View Engine and Middleware
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.use(express.static('public'));
 
 app.use(session({
